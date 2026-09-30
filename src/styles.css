@@ -509,6 +509,31 @@ button {
   color: var(--gray-9);
 }
 
+.message-list__select-all-checkbox {
+  width: 14px;
+  height: 14px;
+  flex: 0 0 14px;
+  border: 1.5px solid var(--gray-8);
+  border-radius: 3px;
+  background: #fff;
+  color: #fff;
+}
+
+.message-list__select-all-checkbox[data-state="checked"] {
+  border-color: var(--gray-12);
+  background: var(--gray-12);
+}
+
+.message-list__select-all-checkbox:focus-visible {
+  outline: 2px solid var(--gray-9);
+  outline-offset: 2px;
+}
+
+.message-list__select-all-checkbox svg {
+  width: 10px;
+  height: 10px;
+}
+
 .list-filter {
   color: var(--gray-10);
 }
