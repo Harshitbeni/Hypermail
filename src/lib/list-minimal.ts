@@ -1,10 +1,10 @@
-const STORAGE_KEY = "mail-app-list-minimal"
+const STORAGE_KEY = "mail-app-list-minimal-v2"
 
 export function readListMinimal(): boolean {
   try {
-    return localStorage.getItem(STORAGE_KEY) === "true"
+    return localStorage.getItem(STORAGE_KEY) !== "false"
   } catch {
-    return false
+    return true
   }
 }
 

@@ -1,5 +1,5 @@
-const STORAGE_KEY = "mail-app-list-row-padding-y"
-const DEFAULT_PADDING_Y = 6
+const STORAGE_KEY = "mail-app-list-row-padding-y-v2"
+const DEFAULT_PADDING_Y = 8
 const MIN_PADDING_Y = 0
 const MAX_PADDING_Y = 32
 

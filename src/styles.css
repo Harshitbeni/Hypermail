@@ -108,7 +108,7 @@ button {
 }
 
 .mail-app {
-  --message-row-padding-y: 6px;
+  --message-row-padding-y: 8px;
   display: flex;
   width: 100%;
   height: 100%;
